@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    height: 100vh;
+    background: linear-gradient(
+      90deg,
+      rgba(65, 184, 131, 1) 0%,
+      rgba(0, 212, 255, 1) 100%
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    border: 2px solid #fff;
+    padding: 30px 40px;
+    width: 40%;
+    min-width: 500px;
+  }
+  
+  .container-principal {
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .container-principal input {
+    flex: 3;
+    font-size: 1rem;
+    border: 2px solid #d1d3d4;
+    border-radius: 5px;
+    padding: 12px;
+    font-weight: 500;
+  }
+  
+  .container-principal input:focus {
+    outline: none;
+    border-color: #41b883;
+  }
+  
+  .add {
+    flex: 1;
+    border-radius: 5px;
+    font-weight: 500;
+    height: 100%;
+    font-size: 1rem;
+    border: none;
+    background-color: #41b883;
+    color: #fff;
+    padding: 12px;
+    margin-left: 12px;
+    cursor: pointer;
+  }
+  
+  .item {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    margin-bottom: 2%;
+  }
+
+  .item-clicado {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #95e0cd;
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    margin-bottom: 2%;
+  }
+
+  .item-clicado .item-nome {
+    text-decoration: line-through;
+    color: grey;
+  }
+
+  .item-icone {
+    flex: 15%;
+    padding: 10.4px;
+    text-align: center;
+    border: 1px solid  #41b883;
+    cursor: pointer;
+  }
+
+  .item-icone-clicado{
+    flex: 15%;
+    padding: 9.5px;
+    text-align: center;
+    border: 1px solid  #41b883;
+    cursor: pointer;
+  }
+
+  .bolinha {
+    font-size: 18px;
+  }
+
+  .clicado {
+    font-size: 20px;
+    color: #41b883;
+  }
+
+  .item-nome {
+    flex: 70%;
+    border: 1px solid #41b883;
+    padding: 12px;
+    text-align: center;
+  }
+
+  .item-botao {
+    flex: 15%;
+    border: 1px solid  #41b883;
+    padding: 8.4px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .delete {
+    font-size: 22px;
+    color: red;
+  }
